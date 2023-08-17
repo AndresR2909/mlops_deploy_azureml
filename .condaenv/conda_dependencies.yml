@@ -1,0 +1,18 @@
+name: screening_env
+dependencies:
+  - python=3.9
+  - scikit-learn
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - flask
+      - azure-ai-ml
+      - azureml-mlflow
+      #Required to execute on azure
+      - mlflow
+      - matplotlib
+      - spacy==3.4.*
+      
+     
+      

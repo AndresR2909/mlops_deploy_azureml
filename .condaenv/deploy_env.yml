@@ -1,0 +1,14 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.9
+- pip
+- pip:
+  - mlflow
+  - azureml-mlflow
+  - azureml-core
+  - pandas
+  - numpy
+  - xgboost
+  - scikit-learn
+name: mlflow-env_deploy
